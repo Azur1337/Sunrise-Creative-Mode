@@ -8,4 +8,6 @@ build/
 *.sln.docstates
 *.aps
 logs/
+!Sunrise/src/core/ui/modules/logs/
+!Sunrise/src/core/ui/modules/logs/**
 *.log

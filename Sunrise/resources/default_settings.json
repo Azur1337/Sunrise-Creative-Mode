@@ -21,7 +21,7 @@
   "client": {
     "ui": {
       "enabled": true,
-      "toggle_key": "insert"
+      "toggle_key": "delete"
     },
     "external_server": {
       "enabled": false,

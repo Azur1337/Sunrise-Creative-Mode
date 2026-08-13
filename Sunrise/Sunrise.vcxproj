@@ -183,7 +183,9 @@
     <ClCompile Include="src\client\hooks\egress\winsock\transmission\egress_datagram_transmission.cpp" />
     <ClCompile Include="src\client\hooks\egress\winsock\transmission\egress_message_transmission.cpp" />
     <ClCompile Include="src\client\ui\runtime\client_ui_module_runtime.cpp" />
+    <ClCompile Include="src\client\ui\creative\creative_panel.cpp" />
     <ClCompile Include="src\client\ui\teleport\teleport_panel.cpp" />
+    <ClCompile Include="src\client\creative\creative_settings_store.cpp" />
     <ClCompile Include="src\client\teleport\teleport_settings_store.cpp" />
     <ClCompile Include="src\client\hooks\teleport\teleport_lifecycle.cpp" />
     <ClCompile Include="src\client\hooks\teleport\teleport_move.cpp" />
@@ -665,9 +667,11 @@
     <ClInclude Include="src\core\ui\layout\navigation\ui_layout_navigation.h" />
     <ClInclude Include="src\core\ui\layout\credits\sunrise_credits_badge.h" />
     <ClInclude Include="src\client\runtime\runtime.h" />
+    <ClInclude Include="src\client\creative\creative_settings_store.h" />
     <ClInclude Include="src\client\teleport\teleport_settings_store.h" />
     <ClInclude Include="src\client\hooks\teleport\internal.h" />
     <ClInclude Include="src\client\hooks\teleport\runtime.h" />
+    <ClInclude Include="src\client\ui\creative\creative_panel.h" />
     <ClInclude Include="src\client\ui\teleport\teleport_panel.h" />
     <ClInclude Include="src\client\runtime\internal.h" />
     <ClInclude Include="src\client\runtime\host\game_host_classification.h" />

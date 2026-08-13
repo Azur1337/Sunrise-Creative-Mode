@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -DWIN32
+    - -D_WINDOWS
+    - -D_USRDLL
+    - -DWIN32_LEAN_AND_MEAN
+    - -DNOMINMAX
+
+    - -Isrc
+    - -Ivendor/imgui
+    - -Ivendor/imgui/backends
+    - -Ivendor/detours
